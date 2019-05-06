@@ -1,0 +1,340 @@
+
+body {
+    text-align: center;
+    background-image: url(../images/interlaced.png);
+    background-color: none;
+    background-size: auto;
+}
+
+blockquote {
+    font-size: 20px;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+li {
+    padding: 5px 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+
+h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    padding: 5px;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    padding: 5px;
+}
+
+body {
+font-family: 'PT Sans', sans-serif;
+}
+
+img {
+    height: auto;
+    width: auto;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 4px;
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    position: inherit;
+    z-index: auto;
+    visibility: visible;
+}
+
+
+body {
+  font-family: Helvetica, sans-serif;
+  padding:  2.5%;
+  text-align: center;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 250px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 600px;
+  width: 450px;
+}
+
+.slide:nth-child(1) {
+  background: #;
+}
+
+.slide:nth-child(2) {
+  background: #;
+}
+
+.slide:nth-child(3) {
+  background: #;
+}
+
+.slide:nth-child(4) {
+  background: #;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -450px;}
+  50% {margin-left: -450px;}
+  60% {margin-left: -900px;}
+  70% {margin-left: -900px;}
+  80% {margin-left: -1350px;}
+  90% {margin-left: -1350px;}
+}
+
+embed {
+    width: 350px;
+    height: 500px;
+}
+
+img {
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 4px;
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    position: inherit;
+    z-index: auto;
+    visibility: visible;
+}
+
+
+ table {
+  border: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 5px 8px;
+}
+
+iframe {
+    width: 400px;
+}
+
+video {
+    width: 400px;
+}
+
+/* I only used two media queries because I only needed two to make this website responsive. This is mobile first design everything in the last media query is for desktop. */
+@media (min-width: 728px) {
+
+    body {
+      font-family: Helvetica, sans-serif;
+      padding:  2.5%;
+      text-align: center;
+    }
+
+
+
+    #slideshow {
+      overflow: hidden;
+      height: 250px;
+      width: 728px;
+      margin: 0 auto;
+    }
+
+    .slide-wrapper {
+      width: 2912px;
+      -webkit-animation: slide 18s ease infinite;
+    }
+
+    .slide {
+      float: left;
+      height: 600px;
+      width: 728px;
+    }
+
+    .slide:nth-child(1) {
+      background: #;
+    }
+
+    .slide:nth-child(2) {
+      background: #;
+    }
+
+    .slide:nth-child(3) {
+      background: #;
+    }
+
+    .slide:nth-child(4) {
+      background: #;
+    }
+
+    .slide-number {
+      color: #000;
+      text-align: center;
+      font-size: 10em;
+    }
+
+    @-webkit-keyframes slide {
+      20% {margin-left: 0px;}
+      30% {margin-left: -728px;}
+      50% {margin-left: -728px;}
+      60% {margin-left: -1456px;}
+      70% {margin-left: -1456px;}
+      80% {margin-left: -2184px;}
+      90% {margin-left: -2184px;}
+    }
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+video {
+    width: 660px;
+    height: 415px;
+}
+
+iframe {
+    width: 660px;
+    height: 415px;
+}
+
+embed {
+    width: 550px;
+    height: 728px;
+}
+
+.container {
+    width: 1024px;
+    padding: px;
+    margin: 25px auto;
+ }
+
+
+ p {
+     padding: 5px;
+ }
+
+.step1img {
+    width: 1000px;
+    height: 650px;
+}
+
+img {
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 4px;
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    position: inherit;
+    z-index: auto;
+    visibility: visible;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  padding:  2.5%;
+  text-align: center;
+}
+
+
+
+#slideshow {
+  overflow: hidden;
+  height: 250px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 600px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: #;
+}
+
+.slide:nth-child(2) {
+  background: #;
+}
+
+.slide:nth-child(3) {
+  background: #;
+}
+
+.slide:nth-child(4) {
+  background: #;
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+
+}
